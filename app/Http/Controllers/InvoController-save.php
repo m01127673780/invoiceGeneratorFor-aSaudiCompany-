@@ -102,10 +102,13 @@ class InvoController extends Controller
      * @param  \App\Invo  $invo
      * @return \Illuminate\Http\Response
      */
-    public function edit(Invo $invo)
+    public function edit(Invo $invo,$id)
     {
-        //
-    }
+         $all_data = \App\Invo::find($id);
+         $data = request()->except(['_token','_method']);
+
+        return view('invo.edit',compact('all_data'));
+     }
 
     /**
      * Update the specified resource in storage.
@@ -114,10 +117,64 @@ class InvoController extends Controller
      * @param  \App\Invo  $invo
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Invo $invo)
+    public function update(Request $request, Invo $invo,$id)
     {
-        //
-    }
+        $data = $this->validate(request(),[
+            'invoice_tax'                          =>'nullable',
+            'invoice_currency'                      =>'nullable',
+            'invoice_discount'                      =>'nullable',
+            'invoice_name'                          =>'nullable',
+            'invoice_billing_date'                  =>'nullable',
+            'invoice_due_date'                      =>'nullable',
+            'invoice_img'                           =>'image|mimes:jpg,png,gif,gpaj,gpj',
+            'billfrom_business_name'                =>'nullable',
+            'billfrom_addres_line_one'              =>'nullable',
+            'billfrom_addres_line_tow'              =>'nullable',
+            'billfrom_phone'                        =>'nullable',
+            'billfrom_email'                        =>'nullable',
+            'billfrom_additional_info'              =>'nullable',
+            'billto_business_name'                  =>'nullable',
+            'billto_addres_line_one'                =>'nullable',
+            'billto_addres_line_tow'                =>'nullable',
+            'billto_phone'                          =>'nullable',
+            'billto_email'                          =>'nullable',
+            'billto_additional_info'                =>'nullable',
+            'invoice_extra_notes'                   =>'nullable',
+            'invoice_use_the_space'                 =>'nullable',
+            'invoice_select_acolor'                 =>'nullable',
+            'invoice_label_stamp'                   =>'nullable',
+            'invoice_signature'                     =>'nullable',
+        ],[
+        ],[
+            'invoice_tax'                          =>'invoice_tax',
+            'invoice_currency'                      =>'invoice_currency',
+            'invoice_discount'                      =>'invoice_discount',
+            'invoice_name'                          =>'invoice_name',
+            'invoice_billing_date'                  =>'invoice_billing_date',
+            'invoice_due_date'                      =>'invoice_due_date',
+            'invoice_img'                           =>'invoice_img',
+            'billfrom_business_name'                =>'billfrom_business_name',
+            'billfrom_addres_line_one'              =>'billfrom_addres_line_one',
+            'billfrom_addres_line_tow'              =>'billfrom_addres_line_tow',
+            'billfrom_phone'                        =>'billfrom_phone',
+            'billfrom_email'                        =>'billfrom_email',
+            'billfrom_additional_info'              =>'billfrom_additional_info',
+            'billto_business_name'                  =>'billto_business_name',
+            'billto_addres_line_one'                =>'billto_addres_line_one',
+            'billto_addres_line_tow'                =>'billto_addres_line_tow',
+            'billto_phone'                          =>'billto_phone',
+            'billto_email'                          =>'billto_email',
+            'billto_additional_info'                =>'billto_additional_info',
+            'invoice_extra_notes'                   =>'invoice_extra_notes',
+            'invoice_use_the_space'                 =>'invoice_use_the_space',
+            'invoice_select_acolor'                 =>'invoice_select_acolor',
+            'invoice_label_stamp'                   =>'invoice_label_stamp',
+            'invoice_signature'                     =>'invoice_signature',
+        ]);
+         Invo::where('id',$id)->update($data);
+        return back();
+     }
+
 
     /**
      * Remove the specified resource from storage.

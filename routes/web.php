@@ -13,6 +13,8 @@
 
 
 Route::get('/','InvoController@index');
+Route::get('edit/{id}','InvoController@edit');
+Route::post('edit/invo/{id}','InvoController@update');
 Route::get('download-pdf','InvoController@downloadPDF');
 Route::post('insert/invo','InvoController@store');
 

@@ -1,7 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76e4a12b-adea-48b0-bc70-b2bf610112ed" name="Default Changelist" comment="" />
+    <list default="true" id="76e4a12b-adea-48b0-bc70-b2bf610112ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/invo/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/.idea/invo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/css/calender.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/css/colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/docs-invoser.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/colorpicker_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/colorpicker_select.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_hex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_hsb_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_hsb_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_hsb_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_indic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_rgb_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_rgb_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_rgb_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/custom_submit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/slider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/thecreatix-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/js/calender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/js/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/js/eye.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/generator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/invoicr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/languages/en.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/courier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/courierb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/courierbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/courieri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/helvetica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/helveticab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/helveticabi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/helveticai.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/symbol.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/times.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/timesb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/timesbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/timesi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/font/zapfdingbats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/fpdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/fpdf/tfpdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/classess/req/rotation/rotation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/common-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/includes/thumbnail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/New folder/send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/css/calender.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/css/colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/generator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/colorpicker_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/colorpicker_select.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_hex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_hsb_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_hsb_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_hsb_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_indic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_rgb_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_rgb_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_rgb_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/custom_submit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/slider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/thecreatix-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/invoicr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/languages/en.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/courier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/courierb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/courierbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/courieri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/helvetica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/helveticab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/helveticabi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/helveticai.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/symbol.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/times.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/timesb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/timesbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/timesi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/font/zapfdingbats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/fpdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/fpdf/tfpdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/classess/req/rotation/rotation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/common-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/includes/thumbnail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/js/calender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/js/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/js/eye.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/sav/send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InvoController-save.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InvoController-save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,12 +245,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/invo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\invo\resources\views" />
       <recent name="E:\xampp\htdocs\invo\resources\views\invo" />
+      <recent name="E:\xampp\htdocs\invo\resources\views" />
       <recent name="E:\xampp\htdocs\invo\invo\resources\views/invo" />
     </key>
   </component>
@@ -153,7 +283,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578303030005</updated>
       <workItem from="1578303032330" duration="27973000" />
-      <workItem from="1578377266602" duration="9633000" />
+      <workItem from="1578377266602" duration="17561000" />
     </task>
     <servers />
   </component>
